@@ -1,9 +1,9 @@
 ---
-http://svn.edgewall.org/repos/genshi/contrib/textmate/Genshi.tmbundle/Syntaxes/Markup%20Template%20%28XML%29.tmLanguage:
-- text.xml.genshi
 https://bitbucket.org/Clams/sublimesystemverilog/get/default.tar.gz:
 - source.systemverilog
 - source.ucfconstraints
+https://svn.edgewall.org/repos/genshi/contrib/textmate/Genshi.tmbundle/Syntaxes/Markup%20Template%20%28XML%29.tmLanguage:
+- text.xml.genshi
 vendor/grammars/ABNF.tmbundle:
 - source.abnf
 vendor/grammars/Agda.tmbundle:
@@ -113,7 +113,9 @@ vendor/grammars/SublimeBrainfuck:
 - source.bf
 vendor/grammars/SublimeClarion:
 - source.clarion
-vendor/grammars/SublimeGDB:
+vendor/grammars/SublimeEthereum:
+- source.solidity
+vendor/grammars/SublimeGDB/:
 - source.disasm
 - source.gdb
 - source.gdb.session
@@ -178,8 +180,15 @@ vendor/grammars/atom-language-1c-bsl:
 - source.sdbl
 vendor/grammars/atom-language-clean:
 - source.clean
+vendor/grammars/atom-language-perl6:
+- source.meta-info
+- source.perl6fe
+- source.quoting.perl6fe
+- source.regexp.perl6fe
 vendor/grammars/atom-language-purescript:
 - source.purescript
+vendor/grammars/atom-language-rust:
+- source.rust
 vendor/grammars/atom-language-srt:
 - text.srt
 vendor/grammars/atom-language-stan:
@@ -225,8 +234,6 @@ vendor/grammars/cpp-qt.tmbundle:
 - source.qmake
 vendor/grammars/creole:
 - text.html.creole
-vendor/grammars/css.tmbundle:
-- source.css
 vendor/grammars/cucumber-tmbundle:
 - source.ruby.rspec.cucumber.steps
 - text.gherkin.feature
@@ -360,12 +367,23 @@ vendor/grammars/language-csound:
 - source.csound
 - source.csound-document
 - source.csound-score
+vendor/grammars/language-css:
+- source.css
 vendor/grammars/language-emacs-lisp:
 - source.emacs.lisp
+vendor/grammars/language-fontforge:
+- source.fontforge
+- source.opentype
+- text.sfd
 vendor/grammars/language-gfm:
 - source.gfm
+vendor/grammars/language-gn:
+- source.gn
 vendor/grammars/language-graphql:
 - source.graphql
+vendor/grammars/language-haml:
+- text.haml
+- text.hamlc
 vendor/grammars/language-haskell:
 - hint.haskell
 - hint.message.haskell
@@ -375,13 +393,10 @@ vendor/grammars/language-haskell:
 - source.haskell
 - source.hsc2hs
 - text.tex.latex.haskell
-vendor/grammars/language-hy:
-- source.hy
 vendor/grammars/language-inform7:
 - source.inform7
 vendor/grammars/language-javascript:
 - source.js
-- source.js.embedded.html
 - source.js.regexp
 - source.js.regexp.replacement
 vendor/grammars/language-jsoniq:
@@ -393,11 +408,17 @@ vendor/grammars/language-maxscript:
 - source.maxscript
 vendor/grammars/language-ncl:
 - source.ncl
+vendor/grammars/language-ninja:
+- source.ninja
 vendor/grammars/language-povray:
 - source.pov-ray sdl
 vendor/grammars/language-python:
 - text.python.console
 - text.python.traceback
+vendor/grammars/language-regexp:
+- source.regexp
+- source.regexp.comment
+- source.regexp.extended
 vendor/grammars/language-renpy:
 - source.renpy
 vendor/grammars/language-restructuredtext:
@@ -426,6 +447,8 @@ vendor/grammars/language-wavefront:
 - source.wavefront.obj
 vendor/grammars/language-xbase:
 - source.harbour
+vendor/grammars/language-xcompose:
+- config.xcompose
 vendor/grammars/language-yaml:
 - source.yaml
 vendor/grammars/language-yang:
@@ -474,8 +497,6 @@ vendor/grammars/nemerle.tmbundle:
 - source.nemerle
 vendor/grammars/nesC:
 - source.nesc
-vendor/grammars/ninja.tmbundle:
-- source.ninja
 vendor/grammars/nix:
 - source.nix
 vendor/grammars/nu.tmbundle:
@@ -505,10 +526,6 @@ vendor/grammars/pawn-sublime-language:
 vendor/grammars/perl.tmbundle:
 - source.perl
 - source.perl.6
-vendor/grammars/perl6fe:
-- source.meta-info
-- source.perl6fe
-- source.regexp.perl6fe
 vendor/grammars/php-smarty.tmbundle:
 - text.html.smarty
 vendor/grammars/php.tmbundle:
@@ -531,8 +548,10 @@ vendor/grammars/python-django.tmbundle:
 vendor/grammars/r.tmbundle:
 - source.r
 - text.tex.latex.rd
-vendor/grammars/ruby-haml.tmbundle:
-- text.haml
+vendor/grammars/rascal-syntax-highlighting:
+- source.rascal
+vendor/grammars/reason:
+- source.reason
 vendor/grammars/ruby-slim.tmbundle:
 - text.slim
 vendor/grammars/ruby.tmbundle:
@@ -600,8 +619,6 @@ vendor/grammars/sublime-rexx:
 - source.rexx
 vendor/grammars/sublime-robot-plugin:
 - text.robot
-vendor/grammars/sublime-rust:
-- source.rust
 vendor/grammars/sublime-spintools:
 - source.regexp.spin
 - source.spin

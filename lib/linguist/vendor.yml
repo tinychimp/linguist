@@ -50,6 +50,9 @@
 # Go dependencies
 - Godeps/_workspace/
 
+# GNU indent profiles
+- .indent.pro
+
 # Minified JavaScript and CSS
 - (\.|-)min\.(js|css)$
 
@@ -234,6 +237,12 @@
 
 # BuddyBuild
 - BuddyBuildSDK.framework/
+
+# Realm
+- Realm.framework
+
+# RealmSwift
+- RealmSwift.framework
 
 # git config files
 - gitattributes$

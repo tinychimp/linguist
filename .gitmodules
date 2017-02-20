@@ -130,9 +130,6 @@
 [submodule "vendor/grammars/Sublime-Text-2-OpenEdge-ABL"]
 	path = vendor/grammars/Sublime-Text-2-OpenEdge-ABL
 	url = https://github.com/jfairbank/Sublime-Text-2-OpenEdge-ABL
-[submodule "vendor/grammars/sublime-rust"]
-	path = vendor/grammars/sublime-rust
-	url = https://github.com/jhasse/sublime-rust
 [submodule "vendor/grammars/sublime-befunge"]
 	path = vendor/grammars/sublime-befunge
 	url = https://github.com/johanasplund/sublime-befunge
@@ -247,9 +244,6 @@
 [submodule "vendor/grammars/cpp-qt.tmbundle"]
 	path = vendor/grammars/cpp-qt.tmbundle
 	url = https://github.com/textmate/cpp-qt.tmbundle
-[submodule "vendor/grammars/css.tmbundle"]
-	path = vendor/grammars/css.tmbundle
-	url = https://github.com/textmate/css.tmbundle
 [submodule "vendor/grammars/d.tmbundle"]
 	path = vendor/grammars/d.tmbundle
 	url = https://github.com/textmate/d.tmbundle
@@ -325,9 +319,6 @@
 [submodule "vendor/grammars/nemerle.tmbundle"]
 	path = vendor/grammars/nemerle.tmbundle
 	url = https://github.com/textmate/nemerle.tmbundle
-[submodule "vendor/grammars/ninja.tmbundle"]
-	path = vendor/grammars/ninja.tmbundle
-	url = https://github.com/textmate/ninja.tmbundle
 [submodule "vendor/grammars/objective-c.tmbundle"]
 	path = vendor/grammars/objective-c.tmbundle
 	url = https://github.com/textmate/objective-c.tmbundle
@@ -355,9 +346,6 @@
 [submodule "vendor/grammars/r.tmbundle"]
 	path = vendor/grammars/r.tmbundle
 	url = https://github.com/textmate/r.tmbundle
-[submodule "vendor/grammars/ruby-haml.tmbundle"]
-	path = vendor/grammars/ruby-haml.tmbundle
-	url = https://github.com/textmate/ruby-haml.tmbundle
 [submodule "vendor/grammars/scheme.tmbundle"]
 	path = vendor/grammars/scheme.tmbundle
 	url = https://github.com/textmate/scheme.tmbundle
@@ -449,9 +437,6 @@
 [submodule "vendor/grammars/Sublime-Nit"]
 	path = vendor/grammars/Sublime-Nit
 	url = https://github.com/R4PaSs/Sublime-Nit
-[submodule "vendor/grammars/language-hy"]
-	path = vendor/grammars/language-hy
-	url = https://github.com/rwtolbert/language-hy
 [submodule "vendor/grammars/Racket"]
 	path = vendor/grammars/Racket
 	url = https://github.com/soegaard/racket-highlight-for-github
@@ -629,9 +614,6 @@
 [submodule "vendor/grammars/language-yang"]
 	path = vendor/grammars/language-yang
 	url = https://github.com/DzonyKalafut/language-yang.git
-[submodule "vendor/grammars/perl6fe"]
-	path = vendor/grammars/perl6fe
-	url = https://github.com/MadcapJake/language-perl6fe.git
 [submodule "vendor/grammars/language-less"]
 	path = vendor/grammars/language-less
 	url = https://github.com/atom/language-less.git
@@ -800,3 +782,39 @@
 [submodule "vendor/grammars/EBNF.tmbundle"]
 	path = vendor/grammars/EBNF.tmbundle
 	url = https://github.com/sanssecours/EBNF.tmbundle
+[submodule "vendor/grammars/language-haml"]
+	path = vendor/grammars/language-haml
+	url = https://github.com/ezekg/language-haml
+[submodule "vendor/grammars/language-ninja"]
+	path = vendor/grammars/language-ninja
+	url = https://github.com/khyo/language-ninja
+[submodule "vendor/grammars/language-fontforge"]
+	path = vendor/grammars/language-fontforge
+	url = https://github.com/Alhadis/language-fontforge
+[submodule "vendor/grammars/language-gn"]
+	path = vendor/grammars/language-gn
+	url = https://github.com/devoncarew/language-gn
+[submodule "vendor/grammars/rascal-syntax-highlighting"]
+	path = vendor/grammars/rascal-syntax-highlighting
+	url = https://github.com/usethesource/rascal-syntax-highlighting
+[submodule "vendor/grammars/atom-language-perl6"]
+	path = vendor/grammars/atom-language-perl6
+	url = https://github.com/perl6/atom-language-perl6
+[submodule "vendor/grammars/reason"]
+	path = vendor/grammars/reason
+	url = https://github.com/facebook/reason
+[submodule "vendor/grammars/language-xcompose"]
+	path = vendor/grammars/language-xcompose
+	url = https://github.com/samcv/language-xcompose
+[submodule "vendor/grammars/SublimeEthereum"]
+	path = vendor/grammars/SublimeEthereum
+	url = https://github.com/davidhq/SublimeEthereum.git
+[submodule "vendor/grammars/atom-language-rust"]
+	path = vendor/grammars/atom-language-rust
+	url = https://github.com/zargony/atom-language-rust
+[submodule "vendor/grammars/language-css"]
+	path = vendor/grammars/language-css
+	url = https://github.com/atom/language-css
+[submodule "vendor/grammars/language-regexp"]
+	path = vendor/grammars/language-regexp
+	url = https://github.com/Alhadis/language-regexp

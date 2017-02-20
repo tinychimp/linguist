@@ -110,6 +110,12 @@ module Linguist
       end
     end
 
+    disambiguate ".cls" do |data|
+      if /\\\w+{/.match(data)
+        Language["TeX"]
+      end
+    end
+
     disambiguate ".cs" do |data|
       if /![\w\s]+methodsFor: /.match(data)
         Language["Smalltalk"]
@@ -254,7 +260,7 @@ module Linguist
     end
 
     disambiguate ".md" do |data|
-      if /(^[-a-z0-9=#!\*\[|])|<\//i.match(data) || data.empty?
+      if /(^[-a-z0-9=#!\*\[|>])|<\//i.match(data) || data.empty?
         Language["Markdown"]
       elsif /^(;;|\(define_)/.match(data)
         Language["GCC machine description"]
@@ -272,7 +278,7 @@ module Linguist
     disambiguate ".mod" do |data|
       if data.include?('<!ENTITY ')
         Language["XML"]
-      elsif /MODULE\s\w+\s*;/i.match(data) || /^\s*END \w+;$/i.match(data)
+      elsif /^\s*MODULE [\w\.]+;/i.match(data) || /^\s*END [\w\.]+;/i.match(data)
         Language["Modula-2"]
       else
         [Language["Linux Kernel Module"], Language["AMPL"]]
@@ -320,7 +326,7 @@ module Linguist
     end
 
     disambiguate ".pl" do |data|
-      if /^[^#]+:-/.match(data)
+      if /^[^#]*:-/.match(data)
         Language["Prolog"]
       elsif /use strict|use\s+v?5\./.match(data)
         Language["Perl"]
